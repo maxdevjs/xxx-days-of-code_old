@@ -1,0 +1,157 @@
+/*https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=1&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.10980392156862745,0.1568627450980392,0.2,0.47980019762812337,0.04550000000000004,0.91,1,0,0,0.91,0.5276832276573464,0.04550000000000004,1,0.9536436418890617,0.050000000000000044&swatchOrder=0,1,2,3,4*/
+
+html, body {
+    color: black;
+    background-color: #1C2833;
+    font: 14px Arial;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+hr {
+    margin-top: 0;
+    border: 0.5px solid black;
+}
+p {
+    margin-left: 10px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    text-indent: 0;
+}
+
+ul {
+    padding: 0;
+}
+@media (max-width: 700px) {
+    .calendar {
+        width: 344px;
+    }
+}
+
+@media (min-width: 700px) {
+    .calendar {
+        width: 516px;
+    }
+    .content {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: auto;
+    }
+}
+@media (min-width: 1100px) {
+    .calendar {
+        width: 516px;
+    }
+
+    .content {
+        display: none;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+
+.content {
+    display: none;
+    overflow: hidden;
+    background-color: #7A0CE8;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.3);
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.thumbLink {
+    text-align: right;
+}
+
+#calendarHolder {
+    overflow: hidden;
+}
+
+.calendar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendarHeader {
+    text-align: center;
+    font: 20px Arial;
+}
+
+.month {
+    border: 1px solid black;
+    margin: 5px;
+    float: left;
+    background-color: #b0b0b0;
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
+}
+
+.month:hover {
+    background-color: #cccccc;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font: 14px Arial;
+    padding: 8px 0;
+}
+
+.dateContainer {
+    margin: 0 10px 5px 10px;
+    float:left;
+}
+
+.date {
+    width: 20px;
+    height: 17px;
+    float: left;
+    text-align: center;
+    font: 12px Arial;
+    padding-top: 3px;
+    color: #999999;
+    cursor: crosshair;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.date:hover {
+    background-color: #bbbbbb;
+}
+
+.active:hover {
+    border: 1px solid #333333;
+    width: 18px;
+    height: 15px;
+}
+
+.active:link {
+    font-style: normal;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+}

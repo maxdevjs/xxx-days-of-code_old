@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>max-devjs do-it</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles/daily.css">
+</head>
+
+<body>
+    before
+
+    <div id="outPopUp">
+        <h2 id="day-1">Day -1</h2>
+        <h3 id="the-prologue">The prologue</h3>
+        <p>First step is always the hardest, right? </p>
+        <p>Eager to formally start my <a href="https://twitter.com/hashtag/100daysofcode?f=tweets">#100DaysOfCode</a>,
+            <a href="https://twitter.com/hashtag/301daysofcode?f=tweets">#301daysofcode</a>,
+            <a href="https://twitter.com/hashtag/javascript30?f=tweets">#javascript30</a>, probably <a href="https://twitter.com/hashtag/1ppm?f=tweets">#1ppm</a> and
+            <a href="https://twitter.com/hashtag/designeveryday?f=tweets">#designeveryday</a> (who knows how many more nice hashtags will pop up and sink down in the meantime) journey I thought that this should be a compelling, personal projects driven, experience.</p>
+        <p>Yes, finally time has come to dust off those famous ideas crammed in that third desk drawer.</p>
+        <p>Wondering about what could be the starting point, I have (informally) followed the abovementioned hashtags for some days.</p>
+        <p>When I saw <a href="https://bit101.github.io/lab/">BIT-101 LAB</a> I realized that I would need a sort of a journal.</p>
+        <p>It looked a perfect project to start off: cloning and reshaping it at my will would then be my first step.</p>
+        <h3 id="what-i-did">What I did</h3>
+        <p>So I did. I cloned the <a href="https://github.com/bit101/lab">BIT-101 LAB</a> source and today I began to reshape it.</p>
+        <p>Currently, even if I am adapting the source to my needs, I still use several features of <a href="https://bit101.github.io/lab/">BIT-101 LAB</a>:</p>
+        <ul>
+            <li>daily creation workflow</li>
+            <li>calendar</li>
+            <li><a href="https://github.com/bit101/quicksettings">QuickSettings</a></li>
+            <li>...</li>
+        </ul>
+        <p>Being this an experiment priorities have been to:</p>
+        <ul>
+            <li>delete unused files (mainly libs)</li>
+            <li>follow (but adapt) the <a href="http://www.bit-101.com/blog/">original</a> workflow
+                <ul>
+                    <li>add or modify (ba)sh shell script to create, publish, etc the daily files
+                        <ul>
+                            <li>example: if I do not provide a date, the scripts will automatically use &quot;today&quot; as default</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>update readme.md, template.html, index.html, .gitignore, etc</li>
+            <li>create template.md, now.html, package.json, generateReadMe.js, etc</li>
+            <li>create a dailies-md directory where daily entries are generated and stored</li>
+            <li><a href="https://github.com/max-devjs/xxx-days-of-code/00-mkdaily-md.sh">write</a> the daily entry in markdown (perhaps some day I will switch back to simple markdown in a normal repo)
+                <ul>
+                    <li>use <a href="https://github.com/chjj/marked">marked</a> to <a href="https://github.com/max-devjs/xxx-days-of-code/01-mkdaily.sh">translate</a> the markdown to html (idea from <a href="http://stackoverflow.com/questions/37770620/how-to-include-markdown-md-files-inside-html-files">How to include markdown (.md) files inside html files</a>)</li>
+                    <li><a href="https://github.com/max-devjs/xxx-days-of-code/01-mkdaily.sh">include</a> it in the daily html template with a bit of <a href="https://www.gnu.org/software/sed/manual/sed.html">sed</a> and clean things up</li>
+                    <li><a href="https://github.com/max-devjs/xxx-days-of-code/02-publish.sh">publish</a> the final daily html to dailies</li>
+                    <li>edit <a href="https://github.com/max-devjs/xxx-days-of-code/index.json">index.json</a> for tags (hopefully some day <a href="https://github.com/max-devjs/xxx-days-of-code/03-update-index.json.sh">automized</a>)</li>
+                    <li><a href="https://github.com/max-devjs/xxx-days-of-code/04-push-to-origin.sh">push</a> (yup, via shell script)</li>
+                </ul>
+            </li>
+        </ul>
+        <p>That&#39;s all for now. </p>
+        <p>For posterity, this is how it currently <a href="https://github.com/max-devjs/xxx-days-of-code/thumbs/170228.png">looks</a> like.</p>
+        <h3 id="what-i-will-do">What I will do</h3>
+        <ul>
+            <li>I won&#39;t worry about the NEXT (to the next day) link in daylies</li>
+            <li>play with css</li>
+            <li>slowly morph into an Angular / Material experiment</li>
+            <li>automate the ... transpilation and ... publishing ... on ... save? ARGH!</li>
+            <li>peek into what is possible to do on Github</li>
+        </ul>
+        <h2 id="daily-stuff">Daily Stuff</h2>
+        <h3 id="git">Git</h3>
+        <ol>
+            <li>to-read <a href="https://8thlight.com/blog/kevin-liddle/2012/09/27/mind-your-git-manners.html"> Mind Your Git Manners</a></li>
+            <li>to-read <a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository">Setting up a repository</a></li>
+        </ol>
+        <h3 id="vim">Vim</h3>
+        <ol>
+            <li>to-read <a href="https://8thlight.com/blog/chris-jordan/2016/06/13/running-tests-in-vim.html">Running tests in Vim</a></li>
+            <li>to-read <a href="https://jovicailic.org/2015/05/saving-read-only-files-in-vim-sudo-trick/">Saving Read-only Files in Vim – The sudo tee trick</a></li>
+        </ol>
+        <h3 id="research-to-adapt-the-original-code">Research to adapt the original code</h3>
+        <ol>
+            <li><a href="http://stackoverflow.com/questions/37770620/how-to-include-markdown-md-files-inside-html-files">How to include markdown (.md) files inside html files</a></li>
+            <li><a href="http://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file">Include another HTML file in a HTML file</a></li>
+            <li><a href="http://unix.stackexchange.com/questions/121161/how-to-insert-text-after-a-certain-string-in-a-file">How to insert text after a certain string in a file?</a></li>
+            <li><a href="http://unix.stackexchange.com/questions/32908/how-to-insert-the-content-of-a-file-into-another-file-before-a-pattern-marker">How to insert the content of a file into another file before a pattern (marker)?</a></li>
+            <li>this one draw me to the solution <a href="http://unix.stackexchange.com/questions/49377/substitute-pattern-within-a-file-with-the-content-of-other-file">Substitute pattern within a file with the content of other file</a></li>
+            <li><a href="http://mywiki.wooledge.org/BashPitfalls#cat_file_.7C_sed_s.2BAC8-foo.2BAC8-bar.2BAC8_.3E_file">Bash Pitfalls</a></li>
+            <li>ok, not really read it all <a href="https://www.html5rocks.com/en/tutorials/webcomponents/imports/">HTML Imports</a></li>
+            <li>alternative to <a href="https://github.com/chjj/marked">marked</a> (?) <a href="https://github.com/markdown-it/markdown-it">markdown-it</a></li>
+            <li><a href="https://www.gnu.org/software/sed/manual/sed.html">sed</a></li>
+        </ol>
+    </div>
+
+    after
+    <script src="../js/ui.js"></script>
+    <script src="../libs/quicksettings_3_0.min.js"></script>
+    <script>
+        var date = 170315;
+        var desc = "description";
+        var issueNumber = 9999;
+        setup(date, date - 1, date + 1, desc, issueNumber);
+    </script>
+</body>
+
+</html>

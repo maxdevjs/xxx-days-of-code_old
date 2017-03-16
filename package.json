@@ -1,0 +1,14 @@
+{
+  "name": "0-markdown-2-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateReadMe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "marked": "0.3.6"
+  }
+}

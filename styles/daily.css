@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: #000000;
+}
+
+/*#outPopUp {
+  position: absolute;
+  width: 800px;
+  height: 200px;
+  z-index: 1;
+  top: 20%;
+  left: 30%;
+  margin: -100px 0 0 -150px;
+  margin-right: auto;
+  margin-left: auto;
+  background: red;
+}*/
+
+#outPopUp {
+    /*display: flex;*/
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  width: 600px;
+  background: darkseagreen;
+  /*text-align: center;*/
+  font: 20px Arial;
+}
