@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>max-devjs do-it</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles/daily.css">
+</head>
+
+<body>
+    before
+
+    <div id="outPopUp">
+        <h2 id="day-0">Day 0</h2>
+        <h3 id="tl-dr">TL;DR</h3>
+        <p>Check the Atom <a href="https://github.com/max-devjs/atom-music-for-programming">Music for programming</a> (work in progress) package.</p>
+        <h3 id="longer-story">Longer Story</h3>
+        <p>A lot of things caught my attention today. Initial idea was to (start to) switch this repo to Material as soon as possible, but when I did see a tweet about <a href="#music">Music for the Programming</a> I remembered that a few times I listened to <a href="http://musicforprogramming.net/">Music for programming</a> episodes.</p>
+        <p>This repo is still rough but usable, then I decided that today would be nice to have a command line version of <a href="http://musicforprogramming.net/">Music for programming</a>. As I find out, already exists a nice NPM <a href="https://www.npmjs.com/package/music-for-programming">package</a> for it.</p>
+        <p>So, what about an editor plugin / package / ...? Personally I am currently focused on Nvim and VS Code but, again, a tweet did help me to choose <a href="#atom">Atom</a>. And, above all, I quickly realized that would be so easier, as I explain in the <a href="#whatidid">next</a> section.</p>
+        <h3 id="what-i-did">What I did</h3>
+        <p>I found that <a href="https://github.com/gabceb/atom-web-view">Atom Web View package</a> is a perfect fit for this project:</p>
+        <ul>
+            <li>I did clone the <a href="https://github.com/gabceb/atom-web-view">Atom Web View package</a> repo</li>
+            <li>I did look around a bit</li>
+            <li>I did use the bare minimum to load a web page in an Atom editor</li>
+            <li>I did implement a few functions (open, close, reload, toggle)</li>
+        </ul>
+        <p>Check the Atom <a href="https://github.com/max-devjs/atom-music-for-programming">Music for programming</a> (work in progress) package.</p>
+        <h2 id="daily-stuff">Daily Stuff</h2>
+        <h3 id="array">Array</h3>
+        <ol>
+            <li>to-read <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/entries">Set.prototype.entries()</a></li>
+        </ol>
+        <h3 id="atom">Atom</h3>
+        <ol>
+            <li>to-listen <a href="https://twitter.com/changelog/status/836230929043623936">The Story of Atom</a></li>
+            <li>to-check <a href="https://github.com/MiracleBlue/atom-dedupe-open-files/blob/master/lib/dedupe-open-files.js">Trying to figure out how to avoid to open several times the page</a> this is still a to-do thing</li>
+        </ol>
+        <h3 id="career">Career</h3>
+        <ol>
+            <li>to-read <a href="https://dev.to/evgenyk/a-mythical-full-stack-developer">A mythical full stack developer</a> How full is your stack? It really depends.</li>
+        </ol>
+        <h3 id="git">Git</h3>
+        <ol>
+            <li>to-check <a href="http://www.git-legit.org/">Legit</a> a complementary command-line interface for Git, optimized for workflow simplicity</li>
+        </ol>
+        <h3 id="ionic">Ionic</h3>
+        <ol>
+            <li>to-read <a href="http://blog.ionic.io/ionic-cli-v3-beta/">Ionic CLI v3 Beta</a></li>
+        </ol>
+        <h3 id="music">Music</h3>
+        <ol>
+            <li>to-read Atom Dedupe Open Files <a href="https://mikealdo.github.io/2017/01/16/Music-for-the-Programming.html">Music for the Programming</a></li>
+            <li>to-listen <a href="http://musicforprogramming.net/">Music for programming</a></li>
+        </ol>
+        <h3 id="open-source">Open Source</h3>
+        <ol>
+            <li>to-check <a href="https://github.com/captainsafia/legit">Add licenses to projects at the command line</a></li>
+        </ol>
+        <h3 id="vs-code">VS Code</h3>
+        <ol>
+            <li>to-read Yeah! <a href="http://code.visualstudio.com/updates/v1_10#_official-signed-repositories-for-linux">February Release Summary</a></li>
+            <li>to-read <a href="http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html">Mastering VS Code&#39;s Terminal</a></li>
+        </ol>
+    </div>
+
+    after
+    <script src="../js/ui.js"></script>
+    <script src="../libs/quicksettings_3_0.min.js"></script>
+    <script>
+        var date = 170316;
+        var desc = "Day 0 - Atom 'Music for programming' package";
+        var issueNumber = 0;
+        setup(date, date - 1, date + 1, desc, issueNumber);
+    </script>
+</body>
+
+</html>
