@@ -1,3 +1,3 @@
 ## Day
 
-### Daily Stuff
+## Daily Stuff

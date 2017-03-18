@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>max-devjs do-it</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles/daily.css">
+</head>
+
+<body>
+    before
+
+    <div id="outPopUp">
+        <h2 id="day-1">Day 1</h2>
+        <h3 id="ionic">Ionic</h3>
+        <p>Today back to <a href="http://ionicframework.com/">Ionic</a>: full immersion for the next days.</p>
+        <h2 id="daily-stuff">Daily Stuff</h2>
+        <h3 id="inspirations">Inspirations</h3>
+        <ol>
+            <li>to-read <a href="https://medium.com/tradecraft-traction/3-software-ideas-to-turn-gopro-into-a-full-blown-media-company-b6f09b676970#.rq1g1kg8m">Three software ideas to turn GoPro into a full-blown media company</a></li>
+        </ol>
+        <h3 id="ionic">Ionic</h3>
+        <ol>
+            <li>to-read <a href="http://blog.ionic.io/ionic-2-2-0-is-out/">New Split Pane and more, Ionic 2.2.0 is out!</a></li>
+        </ol>
+        <h3 id="learning">Learning</h3>
+        <ol>
+            <li>to-read <a href="https://medium.com/the-mission/how-to-learn-in-2-days-what-normally-takes-6-months-8ed09f229596">How To Learn In 2 Days What Normally Takes 6 Months</a></li>
+        </ol>
+    </div>
+
+    after
+    <script src="../js/ui.js"></script>
+    <script src="../libs/quicksettings_3_0.min.js"></script>
+    <script>
+        var date = 170317;
+        var desc = "Ionic full immersion begins";
+        var issueNumber = 1;
+        setup(date, date - 1, date + 1, desc, issueNumber);
+    </script>
+</body>
+
+</html>
