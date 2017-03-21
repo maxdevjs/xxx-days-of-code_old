@@ -6,8 +6,13 @@ Do it and make yourself great again [#diamyga](https://twitter.com/hashtag/diamy
 
 ## "True learning involves a permanent change in how you see and act in the world"
 
-[How To Learn In 2 Days What Normally Takes 6 Months](https://medium.com/the-mission/how-to-learn-in-2-days-what-normally-takes-6-months-8ed09f229596)
+## Pinned Resources
 
+  1. to-read [How To Learn In 2 Days What Normally Takes 6 Months](https://medium.com/the-mission/how-to-learn-in-2-days-what-normally-takes-6-months-8ed09f229596)
+  1. to-read [How I Became a Better Programmer](http://jlongster.com/How-I-Became-Better-Programmer)
+
+  1. to-read [Open Source Guides](https://opensource.guide/)
+  1. to-read [SICP](https://mitpress.mit.edu/sicp/full-text/book/book.html)
 # Table of Contents
 <!-- MarkdownTOC depth=4 -->
   - [About this repo](#about-this-repo)
