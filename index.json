@@ -25,5 +25,8 @@
   },
   "170323": {
     "tags": "ionic,es5"
+  },
+  "170324": {
+    "tags": "angular,angular-cli"
   }
 }
