@@ -8,6 +8,7 @@ Do it and make yourself great again [#diamyga](https://twitter.com/hashtag/diamy
 
 ## Pinned Resources
 
+  1. to-check [Cloud Functions for Firebase](https://firebase.google.com/docs/functions/)
   1. to-read [Practicing Mindfulness Without Meditating](https://www.psychologytoday.com/blog/the-courage-be-present/201002/practicing-mindfulness-without-meditating)
   1. to-read [How To Learn In 2 Days What Normally Takes 6 Months](https://medium.com/the-mission/how-to-learn-in-2-days-what-normally-takes-6-months-8ed09f229596)
   1. to-read [How I Became a Better Programmer](http://jlongster.com/How-I-Became-Better-Programmer)
