@@ -3,7 +3,7 @@
     "tags": "git,markdown,prologue,sed,vim"
   },
   "170316": {
-    "tags": "array,atom,career,git,ionic,music,open-source,vscode"
+    "tags": "array,atom,career,git,ionic,music,opensource,vscode"
   },
   "170317": {
     "tags": "inspirations,ionic,learning"
@@ -15,7 +15,7 @@
     "tags": "ionic"
   },
   "170320": {
-    "tags": "career,creative,inspirations,ionic,open-source,tools"
+    "tags": "career,creative,inspirations,ionic,opensource,tools"
   },
   "170321": {
     "tags": "ionic,nodejs,philosophy,science"
@@ -63,6 +63,9 @@
     "tags": "biz,burnout,creativity,ionic,life,nodejs,npm,psychology,reactive,webar,webassembly,vim"
   },
   "170405": {
-    "tags": "es,ionic,psychology,tests"
+    "tags": "es,i3wm,psychology,tests"
+  },
+  "170406": {
+    "tags": "css,design,dotfiles,dzen2,i3bar,i3wm,lemonbar,materialdesign,nodejs,polybar,powermenu,trayer,webaudio,yabar"
   }
 }
