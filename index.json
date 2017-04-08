@@ -67,5 +67,8 @@
   },
   "170406": {
     "tags": "css,design,dotfiles,dzen2,i3bar,i3wm,lemonbar,materialdesign,nodejs,polybar,powermenu,trayer,webaudio,yabar"
+  },
+  "170407": {
+    "tags": "bspwm,dotfiles,materialdesign,nodejs,trayer,vim,yabar"
   }
 }
