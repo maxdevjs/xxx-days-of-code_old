@@ -8,6 +8,9 @@ Do it and make yourself great again [#diamyga](https://twitter.com/hashtag/diamy
 
 ## Pinned Resources
 
+  1. to-watch [/sessions](https://pusher.com/sessions)
+  1. to-read [Dynamic Web Apps on GitHub Pages FOR FREE](https://medium.com/pan-labs/dynamic-web-apps-on-github-pages-for-free-ffac2b776d45)
+
   1. to-read [The UNOFFICIAL Angular documentation](http://ngdoc.io)
   1. to-check [Cloud Functions for Firebase](https://firebase.google.com/docs/functions/)
   1. to-read [Practicing Mindfulness Without Meditating](https://www.psychologytoday.com/blog/the-courage-be-present/201002/practicing-mindfulness-without-meditating)

@@ -76,5 +76,8 @@
   },
   "170409": {
     "tags": "polybar"
+  },
+  "170410": {
+    "tags": "angular,docker,firebase,github,ionic,typescript"
   }
 }
