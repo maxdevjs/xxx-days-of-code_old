@@ -79,5 +79,8 @@
   },
   "170410": {
     "tags": "angular,docker,firebase,github,ionic,typescript"
+  },
+  "170410": {
+    "tags": "electron"
   }
 }
