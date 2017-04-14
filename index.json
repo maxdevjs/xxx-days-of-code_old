@@ -80,7 +80,13 @@
   "170410": {
     "tags": "angular,docker,firebase,github,ionic,typescript"
   },
-  "170410": {
+  "170411": {
     "tags": "electron"
+  },
+  "170412": {
+    "tags": "break"
+  },
+  "170413": {
+    "tags": "dom,electron,flexbox,ionic,psychology,svg"
   }
 }
