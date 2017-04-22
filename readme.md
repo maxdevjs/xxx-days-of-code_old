@@ -7,6 +7,8 @@ Do it and make yourself great again [#diamyga](https://twitter.com/hashtag/diamy
 ## "True learning involves a permanent change in how you see and act in the world"
 
 ## Pinned Resources
+  1. to-read [Shell Scripts Matter](https://dev.to/thiht/shell-scripts-matter)
+  1. to-read [Setting up a Minimal, Yet Useful JavaScript Dev Environment](https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment)
 
   1. to-watch [/sessions](https://pusher.com/sessions)
   1. to-read [Dynamic Web Apps on GitHub Pages FOR FREE](https://medium.com/pan-labs/dynamic-web-apps-on-github-pages-for-free-ffac2b776d45)
