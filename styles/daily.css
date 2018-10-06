@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #bada55;
 }
 
 canvas {
@@ -31,6 +32,8 @@ a:link, a:visited, a:active, a:hover {
   text-align: left;
   width: 600px;
   background: darkseagreen;
+  border: 1px solid #000;
+  padding: 10px;
   /*text-align: center;*/
   font: 20px Arial;
 }
